@@ -8,7 +8,7 @@ public class Person {
     private String email;
     private boolean isMarried;
 
-    public Person(String firstName, String lastName, int age){
+    public Person(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -21,20 +21,20 @@ public class Person {
         this.isMarried = isMarried;
     }
 
-    public String getFirstName(){
-        return  firstName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public String getLastName(){
+    public String getLastName() {
         return lastName;
     }
 
-    public int getAge(){
+    public int getAge() {
         return age;
     }
 
-    public boolean isTeen(){
-        if (age >= 13 && age <= 19){
+    public boolean isTeen() {
+        if (age >= 13 && age <= 19) {
             return true;
         }
         return false;

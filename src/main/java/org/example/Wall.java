@@ -18,21 +18,21 @@ public class Wall {
         return height;
     }
 
-    public void setWidth(double width){
-        if (width < 0){
+    public void setWidth(double width) {
+        if (width < 0) {
             width = 0;
         }
         this.width = width;
     }
 
     public void setHeight(double height) {
-        if(height < 0){
+        if (height < 0) {
             height = 0;
         }
         this.height = height;
     }
 
-    public double getArea(){
-        return width*height;
+    public double getArea() {
+        return width * height;
     }
 }
